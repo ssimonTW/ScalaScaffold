@@ -12,4 +12,7 @@ object Tree {
   def size[A](tree: Tree[A]) : Int = ???
 
   def apply[A](as: Branch[A]): Tree[A] = ???
+
+  //Ex 6. Write a function path that returns the maximum path length from the root of a tree to any leaf.
+  def maximumPath[A](tree: Tree[A], origin: Leaf[A]) : Int = ???
 }
